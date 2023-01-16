@@ -269,8 +269,14 @@
                 </div>
             </section>
     
-
-    
-    <script src="https://kit.fontawesome.com/c1babca046.js" crossorigin="anonymous"></script>     
+    <script src="https://kit.fontawesome.com/c1babca046.js" crossorigin="anonymous"></script> 
+     <!-- -----------------java script----------------- -->
+    <script>
+        const toggleButton = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        toggleButton.addEventListener('click',() => {
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
