@@ -179,7 +179,7 @@ background-position: center;
 .b-f-c{
     gap:50px;
 }
-.big-4{
+#big-4{
     flex-direction: row-reverse;
 }
 .left-img img{
