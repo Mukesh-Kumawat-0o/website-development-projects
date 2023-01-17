@@ -126,7 +126,7 @@
         padding-inline:50px;
     }
     /* big feature section */
-    .b-f-c{
+    .b-f-c,#big-4{
         flex-direction: column;
     }
     /* footer */
